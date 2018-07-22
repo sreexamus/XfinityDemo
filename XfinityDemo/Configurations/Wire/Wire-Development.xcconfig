@@ -1,0 +1,12 @@
+//
+//  Wire-Development.xcconfig
+//  XfinityDemo
+//
+//  Created by Sreekanth Iragam Reddy on 7/1/18.
+//  Copyright © 2018 Sreekanth Iragam Reddy. All rights reserved.
+//
+
+// Wire Api url
+server_urlscheme = Wire
+Package name = com.xfinity.wireviewer
+EnvironmentInfo = WireDeveloment

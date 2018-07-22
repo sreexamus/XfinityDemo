@@ -7,21 +7,95 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94082F0320EBF466003404B9 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941A39DC20EBF2B700D06A7A /* SDWebImage.framework */; };
+		94082F0420EBF466003404B9 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 941A39DC20EBF2B700D06A7A /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		94082F0520EBF46E003404B9 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941A39DC20EBF2B700D06A7A /* SDWebImage.framework */; };
+		94082F0620EBF46E003404B9 /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 941A39DC20EBF2B700D06A7A /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		94175F5320EBFAFA0080C906 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 94175F5220EBFAFA0080C906 /* ReadMe.txt */; };
+		941A39D720EB3F0200D06A7A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D02E1720EB18C500EC5781 /* MasterViewController.swift */; };
+		941A39D820EB3F0A00D06A7A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D02E1920EB1A5300EC5781 /* DetailViewController.swift */; };
+		941A39D920EB3F1200D06A7A /* EnvironmentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D02E2520EB284200EC5781 /* EnvironmentInfo.swift */; };
+		941A39DA20EBEE4800D06A7A /* TopicsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D02E2120EB272A00EC5781 /* TopicsViewModel.swift */; };
+		941A39DB20EBEE5A00D06A7A /* TopicsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D02E1C20EB25AC00EC5781 /* TopicsModel.swift */; };
+		941A39DD20EBF2B800D06A7A /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941A39DC20EBF2B700D06A7A /* SDWebImage.framework */; };
+		9446A01420EB31ED00E56B8F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D02E1F20EB266000EC5781 /* Alamofire.framework */; };
+		9446A01520EB31ED00E56B8F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94D02E1F20EB266000EC5781 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9446A01720EB31F600E56B8F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D02E1F20EB266000EC5781 /* Alamofire.framework */; };
+		9446A01820EB31F600E56B8F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 94D02E1F20EB266000EC5781 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9451249820E9E2C700DC8DA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451249720E9E2C700DC8DA1 /* AppDelegate.swift */; };
-		9451249A20E9E2C800DC8DA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451249920E9E2C800DC8DA1 /* ViewController.swift */; };
 		9451249D20E9E2C800DC8DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9451249B20E9E2C800DC8DA1 /* Main.storyboard */; };
 		9451249F20E9E2C800DC8DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9451249E20E9E2C800DC8DA1 /* Assets.xcassets */; };
 		945124A220E9E2C800DC8DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945124A020E9E2C800DC8DA1 /* LaunchScreen.storyboard */; };
+		945124AC20E9E2E300DC8DA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9451249720E9E2C700DC8DA1 /* AppDelegate.swift */; };
+		945124AF20E9E2E300DC8DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945124A020E9E2C800DC8DA1 /* LaunchScreen.storyboard */; };
+		945124B020E9E2E300DC8DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9451249E20E9E2C800DC8DA1 /* Assets.xcassets */; };
+		945124B120E9E2E300DC8DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9451249B20E9E2C800DC8DA1 /* Main.storyboard */; };
+		945124CF20E9EAE500DC8DA1 /* Wire-Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 945124CC20E9E5C100DC8DA1 /* Wire-Development.xcconfig */; };
+		945124D020E9EAE800DC8DA1 /* Wire-Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 945124CD20E9E5DA00DC8DA1 /* Wire-Staging.xcconfig */; };
+		945124D120E9EAEC00DC8DA1 /* Wire-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 945124CE20E9E5EA00DC8DA1 /* Wire-Release.xcconfig */; };
+		945124D220E9EB0200DC8DA1 /* Simsons-Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 945124C720E9E55000DC8DA1 /* Simsons-Development.xcconfig */; };
+		945124D320E9EB0500DC8DA1 /* Simsons-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 945124C820E9E56000DC8DA1 /* Simsons-Release.xcconfig */; };
+		945124D420E9EB0700DC8DA1 /* Simsons-Staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 945124C920E9E57E00DC8DA1 /* Simsons-Staging.xcconfig */; };
+		94D02E1820EB18C500EC5781 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D02E1720EB18C500EC5781 /* MasterViewController.swift */; };
+		94D02E1A20EB1A5300EC5781 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D02E1920EB1A5300EC5781 /* DetailViewController.swift */; };
+		94D02E1D20EB25AC00EC5781 /* TopicsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D02E1C20EB25AC00EC5781 /* TopicsModel.swift */; };
+		94D02E2220EB272A00EC5781 /* TopicsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D02E2120EB272A00EC5781 /* TopicsViewModel.swift */; };
+		94D02E2620EB284200EC5781 /* EnvironmentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D02E2520EB284200EC5781 /* EnvironmentInfo.swift */; };
+		94D02E2720EB2AAA00EC5781 /* TopicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D02E2320EB276000EC5781 /* TopicsManager.swift */; };
+		94D02E2820EB2AF700EC5781 /* TopicsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D02E2320EB276000EC5781 /* TopicsManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		9446A01620EB31ED00E56B8F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				94082F0620EBF46E003404B9 /* SDWebImage.framework in Embed Frameworks */,
+				9446A01520EB31ED00E56B8F /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9446A01920EB31F600E56B8F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				94082F0420EBF466003404B9 /* SDWebImage.framework in Embed Frameworks */,
+				9446A01820EB31F600E56B8F /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		9451249420E9E2C700DC8DA1 /* XfinityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XfinityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94175F5220EBFAFA0080C906 /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		941A39DC20EBF2B700D06A7A /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Carthage/Build/iOS/SDWebImage.framework; sourceTree = SOURCE_ROOT; };
+		9451249420E9E2C700DC8DA1 /* SimsonsViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimsonsViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9451249720E9E2C700DC8DA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9451249920E9E2C800DC8DA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9451249C20E9E2C800DC8DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9451249E20E9E2C800DC8DA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		945124A120E9E2C800DC8DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		945124A320E9E2C800DC8DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945124A320E9E2C800DC8DA1 /* SimsonsViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimsonsViewer-Info.plist"; sourceTree = "<group>"; };
+		945124B520E9E2E300DC8DA1 /* WireViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WireViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		945124B620E9E2E300DC8DA1 /* WireViewerInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = WireViewerInfo.plist; path = /Users/sreekanthiragamreddy/Desktop/XfinityDemo/XfinityDemo/Configurations/Wire/WireViewerInfo.plist; sourceTree = "<absolute>"; };
+		945124C720E9E55000DC8DA1 /* Simsons-Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Simsons-Development.xcconfig"; sourceTree = "<group>"; };
+		945124C820E9E56000DC8DA1 /* Simsons-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Simsons-Release.xcconfig"; sourceTree = "<group>"; };
+		945124C920E9E57E00DC8DA1 /* Simsons-Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Simsons-Staging.xcconfig"; sourceTree = "<group>"; };
+		945124CC20E9E5C100DC8DA1 /* Wire-Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Wire-Development.xcconfig"; sourceTree = "<group>"; };
+		945124CD20E9E5DA00DC8DA1 /* Wire-Staging.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Wire-Staging.xcconfig"; sourceTree = "<group>"; };
+		945124CE20E9E5EA00DC8DA1 /* Wire-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Wire-Release.xcconfig"; sourceTree = "<group>"; };
+		94D02E1720EB18C500EC5781 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		94D02E1920EB1A5300EC5781 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		94D02E1C20EB25AC00EC5781 /* TopicsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsModel.swift; sourceTree = "<group>"; };
+		94D02E1F20EB266000EC5781 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = SOURCE_ROOT; };
+		94D02E2120EB272A00EC5781 /* TopicsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsViewModel.swift; sourceTree = "<group>"; };
+		94D02E2320EB276000EC5781 /* TopicsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsManager.swift; sourceTree = "<group>"; };
+		94D02E2520EB284200EC5781 /* EnvironmentInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +103,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941A39DD20EBF2B800D06A7A /* SDWebImage.framework in Frameworks */,
+				94082F0320EBF466003404B9 /* SDWebImage.framework in Frameworks */,
+				9446A01720EB31F600E56B8F /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945124AD20E9E2E300DC8DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94082F0520EBF46E003404B9 /* SDWebImage.framework in Frameworks */,
+				9446A01420EB31ED00E56B8F /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,15 +124,18 @@
 		9451248B20E9E2C700DC8DA1 = {
 			isa = PBXGroup;
 			children = (
+				94175F5220EBFAFA0080C906 /* ReadMe.txt */,
 				9451249620E9E2C700DC8DA1 /* XfinityDemo */,
 				9451249520E9E2C700DC8DA1 /* Products */,
+				94D02E1E20EB264100EC5781 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		9451249520E9E2C700DC8DA1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9451249420E9E2C700DC8DA1 /* XfinityDemo.app */,
+				9451249420E9E2C700DC8DA1 /* SimsonsViewer.app */,
+				945124B520E9E2E300DC8DA1 /* WireViewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,34 +143,106 @@
 		9451249620E9E2C700DC8DA1 /* XfinityDemo */ = {
 			isa = PBXGroup;
 			children = (
+				94D02E1B20EB258A00EC5781 /* Models */,
+				945124C620E9E4DB00DC8DA1 /* Configurations */,
 				9451249720E9E2C700DC8DA1 /* AppDelegate.swift */,
-				9451249920E9E2C800DC8DA1 /* ViewController.swift */,
+				94D02E2120EB272A00EC5781 /* TopicsViewModel.swift */,
 				9451249B20E9E2C800DC8DA1 /* Main.storyboard */,
 				9451249E20E9E2C800DC8DA1 /* Assets.xcassets */,
 				945124A020E9E2C800DC8DA1 /* LaunchScreen.storyboard */,
-				945124A320E9E2C800DC8DA1 /* Info.plist */,
+				94D02E1920EB1A5300EC5781 /* DetailViewController.swift */,
+				94D02E1720EB18C500EC5781 /* MasterViewController.swift */,
+				94D02E2320EB276000EC5781 /* TopicsManager.swift */,
+				94D02E2520EB284200EC5781 /* EnvironmentInfo.swift */,
 			);
 			path = XfinityDemo;
+			sourceTree = "<group>";
+		};
+		945124C620E9E4DB00DC8DA1 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				945124CB20E9E5A100DC8DA1 /* Wire */,
+				945124CA20E9E59A00DC8DA1 /* Simsons */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		945124CA20E9E59A00DC8DA1 /* Simsons */ = {
+			isa = PBXGroup;
+			children = (
+				945124C720E9E55000DC8DA1 /* Simsons-Development.xcconfig */,
+				945124C820E9E56000DC8DA1 /* Simsons-Release.xcconfig */,
+				945124C920E9E57E00DC8DA1 /* Simsons-Staging.xcconfig */,
+				945124A320E9E2C800DC8DA1 /* SimsonsViewer-Info.plist */,
+			);
+			path = Simsons;
+			sourceTree = "<group>";
+		};
+		945124CB20E9E5A100DC8DA1 /* Wire */ = {
+			isa = PBXGroup;
+			children = (
+				945124CC20E9E5C100DC8DA1 /* Wire-Development.xcconfig */,
+				945124CD20E9E5DA00DC8DA1 /* Wire-Staging.xcconfig */,
+				945124CE20E9E5EA00DC8DA1 /* Wire-Release.xcconfig */,
+				945124B620E9E2E300DC8DA1 /* WireViewerInfo.plist */,
+			);
+			path = Wire;
+			sourceTree = "<group>";
+		};
+		94D02E1B20EB258A00EC5781 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94D02E1C20EB25AC00EC5781 /* TopicsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94D02E1E20EB264100EC5781 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				941A39DC20EBF2B700D06A7A /* SDWebImage.framework */,
+				94D02E1F20EB266000EC5781 /* Alamofire.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9451249320E9E2C700DC8DA1 /* XfinityDemo */ = {
+		9451249320E9E2C700DC8DA1 /* SimsonsViewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 945124A620E9E2C800DC8DA1 /* Build configuration list for PBXNativeTarget "XfinityDemo" */;
+			buildConfigurationList = 945124A620E9E2C800DC8DA1 /* Build configuration list for PBXNativeTarget "SimsonsViewer" */;
 			buildPhases = (
 				9451249020E9E2C700DC8DA1 /* Sources */,
 				9451249120E9E2C700DC8DA1 /* Frameworks */,
 				9451249220E9E2C700DC8DA1 /* Resources */,
+				9446A01920EB31F600E56B8F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = XfinityDemo;
+			name = SimsonsViewer;
 			productName = XfinityDemo;
-			productReference = 9451249420E9E2C700DC8DA1 /* XfinityDemo.app */;
+			productReference = 9451249420E9E2C700DC8DA1 /* SimsonsViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		945124A920E9E2E300DC8DA1 /* WireViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945124B220E9E2E300DC8DA1 /* Build configuration list for PBXNativeTarget "WireViewer" */;
+			buildPhases = (
+				945124AA20E9E2E300DC8DA1 /* Sources */,
+				945124AD20E9E2E300DC8DA1 /* Frameworks */,
+				945124AE20E9E2E300DC8DA1 /* Resources */,
+				9446A01620EB31ED00E56B8F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WireViewer;
+			productName = XfinityDemo;
+			productReference = 945124B520E9E2E300DC8DA1 /* WireViewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,6 +259,9 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					945124A920E9E2E300DC8DA1 = {
+						ProvisioningStyle = Manual;
+					};
 				};
 			};
 			buildConfigurationList = 9451248F20E9E2C700DC8DA1 /* Build configuration list for PBXProject "XfinityDemo" */;
@@ -113,7 +277,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9451249320E9E2C700DC8DA1 /* XfinityDemo */,
+				9451249320E9E2C700DC8DA1 /* SimsonsViewer */,
+				945124A920E9E2E300DC8DA1 /* WireViewer */,
 			);
 		};
 /* End PBXProject section */
@@ -125,7 +290,24 @@
 			files = (
 				945124A220E9E2C800DC8DA1 /* LaunchScreen.storyboard in Resources */,
 				9451249F20E9E2C800DC8DA1 /* Assets.xcassets in Resources */,
+				945124D320E9EB0500DC8DA1 /* Simsons-Release.xcconfig in Resources */,
 				9451249D20E9E2C800DC8DA1 /* Main.storyboard in Resources */,
+				945124D220E9EB0200DC8DA1 /* Simsons-Development.xcconfig in Resources */,
+				94175F5320EBFAFA0080C906 /* ReadMe.txt in Resources */,
+				945124D420E9EB0700DC8DA1 /* Simsons-Staging.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945124AE20E9E2E300DC8DA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945124AF20E9E2E300DC8DA1 /* LaunchScreen.storyboard in Resources */,
+				945124D120E9EAEC00DC8DA1 /* Wire-Release.xcconfig in Resources */,
+				945124D020E9EAE800DC8DA1 /* Wire-Staging.xcconfig in Resources */,
+				945124B020E9E2E300DC8DA1 /* Assets.xcassets in Resources */,
+				945124B120E9E2E300DC8DA1 /* Main.storyboard in Resources */,
+				945124CF20E9EAE500DC8DA1 /* Wire-Development.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +318,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9451249A20E9E2C800DC8DA1 /* ViewController.swift in Sources */,
+				94D02E2620EB284200EC5781 /* EnvironmentInfo.swift in Sources */,
 				9451249820E9E2C700DC8DA1 /* AppDelegate.swift in Sources */,
+				94D02E2820EB2AF700EC5781 /* TopicsManager.swift in Sources */,
+				94D02E2220EB272A00EC5781 /* TopicsViewModel.swift in Sources */,
+				94D02E1820EB18C500EC5781 /* MasterViewController.swift in Sources */,
+				94D02E1A20EB1A5300EC5781 /* DetailViewController.swift in Sources */,
+				94D02E1D20EB25AC00EC5781 /* TopicsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945124AA20E9E2E300DC8DA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941A39D920EB3F1200D06A7A /* EnvironmentInfo.swift in Sources */,
+				94D02E2720EB2AAA00EC5781 /* TopicsManager.swift in Sources */,
+				941A39DA20EBEE4800D06A7A /* TopicsViewModel.swift in Sources */,
+				945124AC20E9E2E300DC8DA1 /* AppDelegate.swift in Sources */,
+				941A39DB20EBEE5A00D06A7A /* TopicsModel.swift in Sources */,
+				941A39D720EB3F0200D06A7A /* MasterViewController.swift in Sources */,
+				941A39D820EB3F0A00D06A7A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,8 +364,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		945124A420E9E2C800DC8DA1 /* Debug */ = {
+		945124A420E9E2C800DC8DA1 /* SimsonViewer(Development) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124C720E9E55000DC8DA1 /* Simsons-Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -217,11 +419,13 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				server_url = "";
 			};
-			name = Debug;
+			name = "SimsonViewer(Development)";
 		};
-		945124A520E9E2C800DC8DA1 /* Release */ = {
+		945124A520E9E2C800DC8DA1 /* SimsonViewer(Staging) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124C920E9E57E00DC8DA1 /* Simsons-Staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -268,35 +472,463 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = "SimsonViewer(Staging)";
 		};
-		945124A720E9E2C800DC8DA1 /* Debug */ = {
+		945124A720E9E2C800DC8DA1 /* SimsonViewer(Development) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124C720E9E55000DC8DA1 /* Simsons-Development.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = XfinityDemo/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/XfinityDemo/Configurations/Simsons/SimsonsViewer-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.XfinityDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.simsonsviewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				server_url = Simsons;
 			};
-			name = Debug;
+			name = "SimsonViewer(Development)";
 		};
-		945124A820E9E2C800DC8DA1 /* Release */ = {
+		945124A820E9E2C800DC8DA1 /* SimsonViewer(Staging) */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124C920E9E57E00DC8DA1 /* Simsons-Staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = XfinityDemo/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/XfinityDemo/Configurations/Simsons/SimsonsViewer-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.XfinityDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.simsonsviewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				server_url = Simsons;
 			};
-			name = Release;
+			name = "SimsonViewer(Staging)";
+		};
+		945124B320E9E2E300DC8DA1 /* SimsonViewer(Development) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124CC20E9E5C100DC8DA1 /* Wire-Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/XfinityDemo/Configurations/Wire/WireViewerInfo.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.wireviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				server_url = Simsons;
+			};
+			name = "SimsonViewer(Development)";
+		};
+		945124B420E9E2E300DC8DA1 /* SimsonViewer(Staging) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124CD20E9E5DA00DC8DA1 /* Wire-Staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/XfinityDemo/Configurations/Wire/WireViewerInfo.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.wireviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				server_url = Simsons;
+			};
+			name = "SimsonViewer(Staging)";
+		};
+		945124B720E9E47300DC8DA1 /* SimsonViewer(Release) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124C820E9E56000DC8DA1 /* Simsons-Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "SimsonViewer(Release)";
+		};
+		945124B820E9E47300DC8DA1 /* SimsonViewer(Release) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124C820E9E56000DC8DA1 /* Simsons-Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/XfinityDemo/Configurations/Simsons/SimsonsViewer-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.simsonsviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				server_url = Simsons;
+			};
+			name = "SimsonViewer(Release)";
+		};
+		945124B920E9E47300DC8DA1 /* SimsonViewer(Release) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124CE20E9E5EA00DC8DA1 /* Wire-Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/XfinityDemo/Configurations/Wire/WireViewerInfo.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.wireviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				server_url = Simsons;
+			};
+			name = "SimsonViewer(Release)";
+		};
+		945124BD20E9E49800DC8DA1 /* WireViewer(Development) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124CC20E9E5C100DC8DA1 /* Wire-Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "WireViewer(Development)";
+		};
+		945124BE20E9E49800DC8DA1 /* WireViewer(Development) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124CC20E9E5C100DC8DA1 /* Wire-Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/XfinityDemo/Configurations/Simsons/SimsonsViewer-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.simsonsviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				server_url = Wire;
+			};
+			name = "WireViewer(Development)";
+		};
+		945124BF20E9E49800DC8DA1 /* WireViewer(Development) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124CC20E9E5C100DC8DA1 /* Wire-Development.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/XfinityDemo/Configurations/Wire/WireViewerInfo.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.wireviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				server_url = Wire;
+			};
+			name = "WireViewer(Development)";
+		};
+		945124C020E9E4A800DC8DA1 /* WireViewer(Staging) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124CD20E9E5DA00DC8DA1 /* Wire-Staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "WireViewer(Staging)";
+		};
+		945124C120E9E4A800DC8DA1 /* WireViewer(Staging) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124CD20E9E5DA00DC8DA1 /* Wire-Staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/XfinityDemo/Configurations/Simsons/SimsonsViewer-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.simsonsviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				server_url = Wire;
+			};
+			name = "WireViewer(Staging)";
+		};
+		945124C220E9E4A800DC8DA1 /* WireViewer(Staging) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124CD20E9E5DA00DC8DA1 /* Wire-Staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/XfinityDemo/Configurations/Wire/WireViewerInfo.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.wireviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				server_url = Wire;
+			};
+			name = "WireViewer(Staging)";
+		};
+		945124C320E9E4BA00DC8DA1 /* WireViewer(Release) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124CE20E9E5EA00DC8DA1 /* Wire-Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "WireViewer(Release)";
+		};
+		945124C420E9E4BA00DC8DA1 /* WireViewer(Release) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124CE20E9E5EA00DC8DA1 /* Wire-Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/XfinityDemo/Configurations/Simsons/SimsonsViewer-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.simsonsviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				server_url = Wire;
+			};
+			name = "WireViewer(Release)";
+		};
+		945124C520E9E4BA00DC8DA1 /* WireViewer(Release) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945124CE20E9E5EA00DC8DA1 /* Wire-Release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/XfinityDemo/Configurations/Wire/WireViewerInfo.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfinity.wireviewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				server_url = Wire;
+			};
+			name = "WireViewer(Release)";
 		};
 /* End XCBuildConfiguration section */
 
@@ -304,20 +936,41 @@
 		9451248F20E9E2C700DC8DA1 /* Build configuration list for PBXProject "XfinityDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				945124A420E9E2C800DC8DA1 /* Debug */,
-				945124A520E9E2C800DC8DA1 /* Release */,
+				945124A420E9E2C800DC8DA1 /* SimsonViewer(Development) */,
+				945124A520E9E2C800DC8DA1 /* SimsonViewer(Staging) */,
+				945124B720E9E47300DC8DA1 /* SimsonViewer(Release) */,
+				945124BD20E9E49800DC8DA1 /* WireViewer(Development) */,
+				945124C020E9E4A800DC8DA1 /* WireViewer(Staging) */,
+				945124C320E9E4BA00DC8DA1 /* WireViewer(Release) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "SimsonViewer(Development)";
 		};
-		945124A620E9E2C800DC8DA1 /* Build configuration list for PBXNativeTarget "XfinityDemo" */ = {
+		945124A620E9E2C800DC8DA1 /* Build configuration list for PBXNativeTarget "SimsonsViewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				945124A720E9E2C800DC8DA1 /* Debug */,
-				945124A820E9E2C800DC8DA1 /* Release */,
+				945124A720E9E2C800DC8DA1 /* SimsonViewer(Development) */,
+				945124A820E9E2C800DC8DA1 /* SimsonViewer(Staging) */,
+				945124B820E9E47300DC8DA1 /* SimsonViewer(Release) */,
+				945124BE20E9E49800DC8DA1 /* WireViewer(Development) */,
+				945124C120E9E4A800DC8DA1 /* WireViewer(Staging) */,
+				945124C420E9E4BA00DC8DA1 /* WireViewer(Release) */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "SimsonViewer(Development)";
+		};
+		945124B220E9E2E300DC8DA1 /* Build configuration list for PBXNativeTarget "WireViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945124B320E9E2E300DC8DA1 /* SimsonViewer(Development) */,
+				945124B420E9E2E300DC8DA1 /* SimsonViewer(Staging) */,
+				945124B920E9E47300DC8DA1 /* SimsonViewer(Release) */,
+				945124BF20E9E49800DC8DA1 /* WireViewer(Development) */,
+				945124C220E9E4A800DC8DA1 /* WireViewer(Staging) */,
+				945124C520E9E4BA00DC8DA1 /* WireViewer(Release) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "SimsonViewer(Development)";
 		};
 /* End XCConfigurationList section */
 	};
